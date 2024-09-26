@@ -2320,6 +2320,12 @@ END
     REPLACE_TEXTUALLY ~GiveItemCreate("potn33",LastTrigger,0,0,0)~ ~GiveItemCreate("potn33",LastTrigger,0,0,0) AddXPObject(Player1,8000) AddXPObject(Player2,8000) AddXPObject(Player3,8000) AddXPObject(Player4,8000) AddXPObject(Player5,8000) AddXPObject(Player6,8000)~
     COMPILE_BAF_TO_BCS
     BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING ~AR3025.BCS~ ~override~
+    DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~SetGlobalTimer("HordeTimer","AR3025",360)~ ~SetGlobalTimer("HordeTimer","AR3025",300)~
+    COMPILE_BAF_TO_BCS
+    BUT_ONLY_IF_IT_CHANGES
 END
 
 // EE only
