@@ -1,9 +1,8 @@
 IF
   !Allegiance(Myself,ENEMY)
-  OR(4)
+  OR(3)
     AttackedBy([GOODCUTOFF],DEFAULT)
     AttackedBy([PC],DEFAULT)
-    SpellCastOnMe([GOODCUTOFF],0)
     TookDamage()
 THEN
   RESPONSE #100
