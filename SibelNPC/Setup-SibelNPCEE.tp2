@@ -4,6 +4,10 @@ AUTHOR ~el.critto@gmail.com~
 LANGUAGE "English"
   ~SibelNPC/lang/English/~
   ~SibelNPC/lang/English/setup.tra~
+LANGUAGE ~Simplified Chinese~
+  ~SibelNPC/lang/SChinese/~
+  ~SibelNPC/lang/SChinese/setup.tra~
+
 
 BEGIN @2
 DESIGNATED 1
